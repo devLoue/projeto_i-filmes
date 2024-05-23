@@ -71,6 +71,45 @@ main .sect_principal{
     justify-content: space-between;
     padding: 5rem 10rem;
 }
+/* Section Planos */ 
+.planos{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% ;
+    color: #fff;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.tituloplano{
+    text-align: center;
+    padding: 10px;
+}
+.planodescricao{
+    margin-bottom: 12px;
+}
+.planopreco{
+    text-align: center;
+    padding: 2px;
+    background-color: #292929;
+}
+
+.preco{
+    font-size: 24px;
+}
+
+.btnpreco{
+    padding: 14px;
+    background-color: #00478f;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#plano01, #plano02, #plano03, #plano04{
+    background-color: #363232;
+    border-radius: 10px;
+    padding: 14px;
+    padding-bottom: 20px;
+}
 .wrapper {
     width: 100%;
     height: 100vh;

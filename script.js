@@ -30,7 +30,7 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
     });
 
-    ScrollReveal().reveal('#sect_principal1', {
+    ScrollReveal().reveal('.sect_principal', {
         duration: 2000,
         distance: '20%'
     });
