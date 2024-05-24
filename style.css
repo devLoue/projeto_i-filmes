@@ -73,8 +73,8 @@ main .sect_principal{
 }
 /* Section Planos */ 
 .planos{
-    display: grid;
-    grid-template-columns: 15% 15% 15% 15% ;
+    display: flex;
+    align-items: center;
     color: #fff;
     justify-content: center;
     gap: 40px;
