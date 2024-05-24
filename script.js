@@ -62,6 +62,8 @@ $(document).ready(function() {
         duration: 3000,
         distance: '20%'
     })
+   
+
 
 
 });
